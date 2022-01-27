@@ -1,0 +1,52 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header__logo {
+  color: red;
+  transform: scale(1.3);
+}
+
+.header__text {
+  background: black;
+  color: white;
+  border-radius: 25px;
+  padding: 13px;
+  cursor: pointer;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  background: hsl(0, 0%, 93%);
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  padding: 13px;
+  gap: 10px;
+}
+
+.header__input {
+  border: none;
+  outline: none;
+  background: hsl(0, 0%, 93%);
+}
+.header__search > svg {
+  transform: scale(0.9);
+}
+.header__icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.header__icon_size {
+  color: hsl(0, 34%, 58%);
+  transform: scale(1.2);
+}
