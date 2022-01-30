@@ -1,0 +1,29 @@
+.post {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 200px 300px;
+  grid-auto-rows: 300px;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.post > span > img {
+  object-fit: cover;
+  position: relative;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.post > span > img:hover {
+  opacity: 0.4;
+}
+
+.post > span {
+  color: peru;
+
+  font-size: 1.3rem;
+
+  right: 0;
+  border: 10px solid red;
+}
